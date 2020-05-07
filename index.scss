@@ -21,7 +21,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 70vh;
   flex-direction: column;
   p {
     text-transform: capitalize;
@@ -58,7 +58,7 @@ button {
 
 .tabs {
   display: flex;
-  height: 20vh;
+  height: 30vh;
   position: relative;
   justify-content: space-around;
   & :nth-child(1) {
@@ -89,7 +89,8 @@ button {
   border-top-right-radius: 6%;
   transition: 0.3s ease;
   opacity: 0.85;
-  &:hover {
+  &:hover,
+  :focus {
     transform: scaleY(1.3);
     transition: 0.3s ease;
     border-top-left-radius: 13%;
