@@ -121,7 +121,8 @@ button div {
   opacity: 0.85;
 }
 
-.tabs > div:hover {
+.tabs > div:hover,
+.tabs > div :focus {
   -webkit-transform: scaleY(1.3);
           transform: scaleY(1.3);
   -webkit-transition: 0.3s ease;
